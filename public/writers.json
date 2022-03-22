@@ -1,51 +1,51 @@
 [
     {
-        "id":1,
-        "name":"Audrde Lorde",
-        "avatar":"audre_lorde",
-        "email":"audrelorde@gmail.com",
-        "phone":"1-773-846-489",
-        "bio":"uhghgffgij gudkkkd hhkewkh" 
+        "id": 1,
+        "name": "Audrde Lorde",
+        "avatar": "audre_lorde",
+        "email": "audrelorde@gmail.com",
+        "phone": "1-773-846-489",
+        "bio": "uhghgffgij gudkkkd hhkewkh" 
     },
     {
-        "id":2,
-        "name":"belle_hooks",
-        "avatar":"belle_hooks",
-        "email":"bellehooks@gmail.com",
-        "phone":"1-773-846-489",
-        "bio":"uhghgffgij gudkkkd hhkewkh" 
+        "id": 2,
+        "name": "belle_hooks",
+        "avatar": "belle_hooks",
+        "email": "bellehooks@gmail.com",
+        "phone": "1-773-846-489",
+        "bio": "uhghgffgij gudkkkd hhkewkh" 
     },
     {
-        "id":3,
-        "name":"du_bois",
-        "avatar":"du_bois",
-        "email":"dubois@gmail.com",
-        "phone":"1-773-846-489",
-        "bio":"uhghgffgij gudkkkd hhkewkh" 
+        "id": 3,
+        "name": "du_bois",
+        "avatar": "du_bois",
+        "email": "dubois@gmail.com",
+        "phone": "1-773-846-489",
+        "bio": "uhghgffgij gudkkkd hhkewkh" 
     },
     {
-        "id":4,
-        "name":"james_baldwin",
-        "avatar":"james_baldwin",
-        "email":"jamesbaldwin@gmail.com",
-        "phone":"1-773-846-489",
-        "bio":"uhghgffgij gudkkkd hhkewkh" 
+        "id": 4,
+        "name": "james_baldwin",
+        "avatar": "james_baldwin",
+        "email": "jamesbaldwin@gmail.com",
+        "phone": "1-773-846-489",
+        "bio": "uhghgffgij gudkkkd hhkewkh" 
     },
     {
-        "id":5,
-        "name":"lanson_hughes",
-        "avatar":"lanson_hughes",
-        "email":"lansonhughes@gmail.com",
-        "phone":"1-773-846-489",
-        "bio":"uhghgffgij gudkkkd hhkewkh" 
+        "id": 5,
+        "name": "lanston_hughes",
+        "avatar": "lanston_hughes",
+        "email": "lansonhughes@gmail.com",
+        "phone": "1-773-846-489",
+        "bio": "uhghgffgij gudkkkd hhkewkh" 
     },
     {
-        "id":6,
-        "name":"maya_angelou",
-        "avatar":"maya_angelou",
-        "email":"mayaangelou@gmail.com",
-        "phone":"1-773-846-489",
-        "bio":"uhghgffgij gudkkkd hhkewkh" 
+        "id": 6,
+        "name": "maya angelou",
+        "avatar": "maya_angelou",
+        "email": "mayaangelou@gmail.com",
+        "phone": "1-773-846-489",
+        "bio": "uhghgffgij gudkkkd hhkewkh" 
     }
 
 

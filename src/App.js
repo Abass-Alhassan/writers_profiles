@@ -1,4 +1,4 @@
-import profileCard from "./components/profileCard";
+import ProfileCard from "./components/ProfileCard";
 
 import { Component } from 'react';
 
@@ -8,66 +8,66 @@ class App extends Component {
 
     this.handleClick = this.handleClick.bind(this);
     this.state = {
-      writers:{
-        loading:false,
-        list:[]
+      writers: {
+        loading: false,
+        list: []
       }
     };
   }
 
 handleClick(){
-  this.setstate({
-    writers:{
-      loading:true
+  this.setState({
+    writers: {
+      loading: true
     }
   });
-  setTimeout(async()=>{
-    let resp =await fetch("/writers.json");
-    let result =await resp.json();
-    this.setstate({
-      writers:{
-        loading:false,
+  setTimeout(async () => {
+    let resp = await fetch("/writers.json");
+    let result = await resp.json();
+    this.setState({
+      writers: {
+        loading: false,
         list: result
       }
     });
-  },3500);
+  }, 3500);
 }
 
 render() {
 const {
-  writers:{loading, list}
-}= this.state;
-if(loading){
+  writers: { loading, list }
+} = this.state;
+if (loading) {
   return(
     <div>
-      <h1>Writers Profile</h1>
+      <h1> Writers Profiles </h1>
       <div className="container">
         <div className="card action">
           <p className="infoText">Loading...</p>
         </div>
       </div>
     </div>
-  )
+  );
 }
 return (
   <div>
-    <h1>writers profile</h1>
+    <h1> Writers Profiles </h1>
     <div className="container">
       {list.length === 0 ? (
         <div className="card action">
-          <p className="infoText">Oops...no writer profile found</p>
+          <p className="infoText"> Oops...no writer profile found</p>
           <button className="actionBtn" onClick={this.handleClick}> Get Writers</button>
           </div>
-      ):(
-        list.map((writer) =>(
-          <profileCard key={writer.id} writer={writer}/>
+      ) : (
+        list.map((writer) => (
+          <ProfileCard key={writer.id} writer={writer}/>
         )
       )
-       ) }
+       )}
     </div>
   </div>
-)
+);
 
 }}
 
-export default App
+export default App;

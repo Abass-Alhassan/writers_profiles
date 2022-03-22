@@ -62,3 +62,9 @@ h1{
   border-radius: 3px;
   transition: all 0.3s ease;
 }
+.actionBtn:hover{
+  background-color: #ffdeca;
+}
+.actionBtn:active{
+  transform: scale(0.987);
+}
